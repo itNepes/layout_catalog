@@ -14,8 +14,7 @@ body {
   display: grid;
   gap: $grid-gap-vertical $grid-gap-horizontal;
   padding: $header-padding-base $header-padding-side;
-  margin: 0 auto;
-  width: fit-content;
+  justify-content: center;
   grid-template-columns: $card-width;
 
   @media (min-width: 488px) {
