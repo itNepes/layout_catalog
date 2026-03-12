@@ -1,7 +1,7 @@
-.product-card {
+.card {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: $card-width;
   background-color: #fff;
   border: 1px solid $color-border-default;
   border-radius: $border-radius;
@@ -32,8 +32,8 @@
     transform: scale(1.2);
     z-index: 1;
 
-    .product-card__title {
-      color: #34568b;
+    .card__title {
+      color: $color-title-hover;
     }
   }
 
@@ -89,7 +89,7 @@
 
     &:hover {
       background-color: #fff;
-      color: #00acdc;
+      color: $color-accent;
     }
   }
 }

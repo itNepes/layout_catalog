@@ -3,14 +3,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px;
-  height: 60px;
+  padding: 0 $header-padding-base;
+  height: $header-height;
   border-bottom: 1px solid $color-border-default;
 
   &__logo {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: $header-padding-side;
+    height: $header-padding-side;
   }
 
   &__logo-img {
@@ -38,7 +38,7 @@
   &__link {
     display: inline-flex;
     align-items: center;
-    height: 60px;
+    height: $header-height;
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
